@@ -265,6 +265,7 @@ var show_puzzle = function(puzzle, refresh){
     }
     
     // Display the puzzle
+    console.log(puzzle);
     display_puzzle(boards[puzzle]);
 }
 
